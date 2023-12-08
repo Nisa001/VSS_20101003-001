@@ -1,0 +1,85 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Text color */
+    background-color: #f8f8f8; /* Set background color */
+}
+
+/* Header Styles */
+header {
+    background-color: #fff; /* Header background color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 36px;
+    margin: 0;
+    text-decoration: underline; /* Decorate brand name */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Services Section Styles */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.circular-img-container {
+    width: 200px; /* Set your specific width */
+    height: 200px; /* Set your specific height */
+    border-radius: 50%; /* Create circular shape */
+    overflow: hidden;
+    margin: 0 auto 20px; /* Center images */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.circular-img-container img.circular-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.service h3 {
+    font-size: 24px;
+}
+
+.service p {
+    color: #666; /* Description text color */
+}
+
+/* Contact Section Styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
